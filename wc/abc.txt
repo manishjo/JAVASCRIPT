@@ -1,0 +1,4 @@
+JavaScript is the scripting language of the Web.
+All modern HTML pages are using JavaScript to add functionality,
+validate input, communicate with web servers, and much more.
+JavaScript is easy to learn. You will enjoy it.

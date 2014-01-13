@@ -1,0 +1,13 @@
+my to do.........
+
+1-frist cheak "wc" in bash to know about this command more.
+2-Break whole program in 5 parts  .
+  - command line arguement,
+  - function for line count,
+  - function for charctor count,
+  - function for word count,
+  - function for longest line in the file,
+3-combine all the functions,
+4-test it for diffrent files.
+
+end 
