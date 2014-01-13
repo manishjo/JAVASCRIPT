@@ -1,0 +1,39 @@
+create a simple running program.
+
+create functionality for following functions
+	-n'namepart'	:	searches namepart in the file as full name
+	-c 				:	searches namepart in the file as part of name
+	-f 				:	searches namepart in the file as first name
+	-m				:	searches namepart in the file as middle name
+	-l				:	searches namepart in the file as last name
+
+test these functionality at strings.
+
+read userInputs from commandLine for 
+	filename
+	-c
+	-n'namepart'
+	-f
+	-m
+	-l
+
+integrate userinput & functionality.
+
+test cases
+
+	node searchname.js name.txt -n'kartik ratneshwar mishra'
+	node searchname.js name.txt -f -n'kartik'
+	node searchname.js name.txt -m -n'kartik'
+	node searchname.js name.txt -l -n'kartik'
+
+	node searchname.js name.txt -n'kartik' -c
+	node searchname.js name.txt -f -n'kartik' -c 
+	node searchname.js name.txt -m -n'kartik' -c
+	node searchname.js name.txt -l -n'kartik' -c
+	node searchname.js --h
+	node searchname.js -n name.txt
+
+
+********************************************05-Sep release notes
+
+For names which have four parts.

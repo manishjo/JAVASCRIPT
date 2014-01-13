@@ -1,0 +1,16 @@
+node searchname.js [filename] [options....]
+
+
+search names in a given file with a string given with -n without any other option.
+if any option is given search as first name, middle name, last name, full name or part of a name.
+if there are more than one field in name then join parts by '_'.
+
+
+-n'namepart':	specifies the name which has to be searched
+-f	:	tells that the given name searched as first name 
+-m 	:	tells that the given name searched as middle name 
+-l	:	tells that the given name searched as last name 
+-i	:	tells that the given name is first,middle,last or full name
+--h	:	for help of searchname
+
+delimitor for names is (:).

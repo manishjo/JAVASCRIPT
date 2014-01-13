@@ -1,0 +1,27 @@
+node searchname.js [filename] [options....]
+
+
+search names in a given file with a string given with -n without any other option.
+if any option is given search as first name, middle name, last name, full name or part of a name.
+
+
+-n'namepart'  :	specifies the name which has to be searched
+-f	:	tells that the given name searched as first name 
+-m :	tells that the given name searched as middle name 
+-l	:	tells that the given name searched as last name 
+-c	:	tells that the given name is a part of first,middle,last or full name
+--h	:	for help of searchname
+
+node searchname.js name.txt -n'kartik ratneshwar mishra' --> it will search given name in whole file
+node searchname.js name.txt -f -n'kartik' --> it will search kartik as first name
+node searchname.js name.txt -m -n'kartik' --> it will search kartik as middle name
+node searchname.js name.txt -l -n'kartik' --> it will search kartik as last name
+
+node searchname.js name.txt -n'kartik' -c --> it will search in whole file as any name contains kartik
+node searchname.js name.txt -f -n'kartik' -c --> it will search if first name contains kartik
+node searchname.js name.txt -m -n'kartik' -c --> it will search if middle name contains kartik
+node searchname.js name.txt -l -n'kartik' -c --> it will search if last name contains kartik
+node searchname.js --h
+
+delimitor for names is (:).
+

@@ -1,0 +1,29 @@
+algo for default search
+	split whole text into lines.
+	search the whole given string in each line as full name.
+	if found return that lines.
+
+algo for -c(has)
+	split whole text into lines.
+	search the whole string as a part of name.
+	if found return that lines.
+
+algo for -f()
+	split whole text into lines.
+	split each lines into first name,second name & last name.
+	match the given string into first name of each record.
+	if found return that lines.
+
+
+algo for -m()
+	split whole text into lines.
+	split each lines into first name,second name & last name.
+	match the given string into middle name of each record.
+	if found return that lines.
+
+
+algo for -l()
+	split whole text into lines.
+	split each lines into first name,second name & last name.
+	match the given string into last name of each record.
+	if found return that lines.
