@@ -1,0 +1,62 @@
+         ...................... To do ...................
+
+[done]Analyze the problem
+
+[done]1-we have to create a "simple running program" which can print frist 10 lines or given numbers lines of each file to standard output.
+
+[done]2-we will create a txt file which will contain multiple lines text.
+
+[done]3-first of all we will create a .js file, name "head.js".
+
+[done]4- we will make a function name user_input which will take user input as command line for the program
+	9.1- example:-
+				node head.js abc.txt
+				          or
+				node head.js -4 abc.txt
+
+[done]5- we will create function name "catch_line".
+
+[done]6- we will take the file name and will cheak that is that file exits or not
+
+[done]7-if file will exits we will read and store the content of the file in a variable 
+
+[done]8-now for printing lines we will use a loop and a counter which will cont for line break in the stored text of the file up to the number given by user .
+
+[done]9-if user has given line number my function will print line till that outherwise it will by default print starting 10 lines of a file.
+
+[done]10- we will use diffreant commands from switch case from command line such as,
+		10.1- 
+		[done]-c, --bytes=SIZE         print first SIZE bytes
+		[done]-n, --lines=NUMBER       print first NUMBER lines instead of first 10
+		[done]-q, --quiet, --silent    never print headers giving file names
+		[done]-v, --verbose            always print headers giving file names
+    		[done]--help               display this help and exit
+
+[done]10-we will make a function "help" in which we will show the help content to the user.
+
+[done]11-for that copy the content of help command when used in bash for head and make a txt file with that and excess that file from help function.
+		11.1- node head.js --h
+		output:- the whole message of help.
+	 
+it takes only one file name
+
+10-example:-
+		text in file:-
+			helloo my name is manish
+			i am a intern at thoughtworks
+			i am going great guns in programming
+			its fun !
+		command:- node head.js -2 abc.txt
+		output:-
+			helloo my name is manish
+			i am a intern at thoughtworks
+
+[done]11-test cases:-
+				1- does it works for multiple blank lines.
+				2- .txt file is not there.
+				3- user has not given file name.
+				4- if no lines are defined,
+	
+
+
+
