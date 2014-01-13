@@ -1,0 +1,21 @@
+........................my algorithm.............................
+
+Start
+standard input for the program using process.stdin.
+	process.stdin.resume();
+user input from command line using (process.argv). 
+lines=split.standard_input('\n')
+	"manish joshi"
+	"harjas singh"
+	"mritunjay dubey"
+	"prateek jain"
+counter=0;
+for (counter=0;counter>lines.length;counter++){
+	split the lines by delimiter.
+	show the fields by delimiter.
+}
+end
+
+
+
+

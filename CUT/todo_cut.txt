@@ -1,0 +1,34 @@
+..................my to do........................................
+
+* Analyze the problem.
+* Create a programe which can Divide a file into  several parts (columns) and show to user.
+* Make a (.js) file.
+* Take standard input for a program using, it will give standard input for programe.
+* Take user input from command line for the programe.
+	Example:- cut.js -d ',' -f1
+* take data from standard input.
+* Split the data (standrad input) by lines.
+* Split the content of table by the delimeter for each Line & print it
+
+....................Test cases........................................
+
+file: table.txt
+  				manish,joshi	
+				harjas,singh
+				kashis,munjal
+				prateek,jain
+
+	command line input:- cat table.txt | cut -d ',' -f1
+
+	output:-
+				manish
+				harjas
+				kashis
+				prateek
+
+	is program giving standard input.
+	Does the program properly work with standard input.
+	what if user has't given any delimiter.
+	if user has't provide the column number.
+	if that column number does not exits.
+ .....................................................................

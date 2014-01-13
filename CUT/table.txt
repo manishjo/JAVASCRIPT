@@ -1,0 +1,5 @@
+manish,joshi,UP
+harjas,singh,PUNJAB
+kashis,munjal,PUNJAB
+prateek,jain,DELHI
+digvijay,gunjal,MAHARASTRA
