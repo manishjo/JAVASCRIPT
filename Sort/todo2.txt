@@ -1,0 +1,6 @@
+1. fix the deleted code. 
+2. make new test cases. 
+3. creat test cases for each if and else.
+4. work with -c.
+5. make test cases for boundry conditions.
+6. keep refactoring your code in between the programe.

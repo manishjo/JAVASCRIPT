@@ -1,0 +1,44 @@
+---------- My to do ----------
+
+Simple runing program.
+
+make a program which can sort column in a file or data by default by space* and if 
+given then by delimiter.
+
+Accept the data from string or  data from file.
+
+Apply sorting in specified column of the data.
+
+Command line functions which i will use:
+	filename
+	option
+		-k
+		-r
+		-n
+		-c
+		-t
+process user input 
+	map
+	-k = To start from a column.
+	-r = Reverse the result of comparision. 
+	-n = compare the string by number.
+	-c = cheak if given files are already sorted.
+	-t = Use sapreater instead of default delimiter.
+
+integrate user input and file.
+
+test cases:-
+
+	input:
+		sort
+		prateek jain
+		raj shingh
+		harjas singh
+		mritunjay dubey
+		manish joshi
+	output:
+		harjas singh
+		manish joshi
+		mritunjay dubey
+		prateek jain
+		raj shingh

@@ -1,0 +1,25 @@
+Usage: sort [OPTION]... [FILE]...
+Write sorted concatenation of all FILE(s) to standard output.
+
+  -c               check if given files already sorted, do not sort
+  -i               consider only [\040-\0176] characters in keys
+  -k POS1[,POS2]   start a key at POS1, end it *at* POS2
+                     field numbers and character offsets are numbered
+                     starting with one (contrast with zero-based +POS form)
+  -n               compare according to string numerical value, imply -b
+  -r               reverse the result of comparisons
+  -t SEP           use SEParator instead of non- to whitespace transition
+      --help       display this help and exit
+      --version    output version information and exit
+
+POS is F[.C][OPTS], where F is the field number and C the character position
+in the field, both counted from one with -k, from zero with the obsolescent
+form.  OPTS is made up of one or more of Mbdfinr; this effectively disables
+global -Mbdfinr settings for that key.  If no key is given, use the entire
+line as the key.  With no FILE, or when FILE is -, read standard input.
+
+Release notes:
+  * This program does not supports alphanumeric values.
+  * This program does not supports unequal data.
+
+Report bugs to <manishjo@thoughtworks.com>.
