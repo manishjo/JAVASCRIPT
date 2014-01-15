@@ -10,7 +10,7 @@
  -
  -## cut :
  -#### Filters and gives the asked columns in given file.
- -    md_cut.js [options] filename
+ -    cut.js [options] filename
  -    options:- -f'1,2,3', -d','
  -
  -## head:
